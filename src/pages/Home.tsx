@@ -26,7 +26,13 @@ const Home: FC = () => {
             colorScheme="purple"
             justifyContent="start"
             isTruncated={true}
-            onClick={() => navigate(`/daily-word/${v.day}`)}
+            onClick={() =>
+              navigate(`/daily-word/${v.day}`, {
+                state: {
+                  wordData: v,
+                },
+              })
+            }
           >
             <Text fontWeight="bold">Day {v.day}</Text> - {v.title}
           </Button>
