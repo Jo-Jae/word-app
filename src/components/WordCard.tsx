@@ -71,7 +71,7 @@ const WordCard: FC<WordCardProps> = ({ sentence }) => {
         </AccordionButton>
         <Button
           variant="ghost"
-          colorScheme="green"
+          colorScheme="purple"
           size="sm"
           mb={2}
           ml={2}

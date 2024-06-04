@@ -39,7 +39,7 @@ const Home: FC = () => {
         ))}
       </Flex>
 
-      <Flex flexDir="column" mt={16} gap={4} px={4}>
+      {/* <Flex flexDir="column" mt={16} gap={4} px={4}>
         {sampleData.map((v: IWords) => (
           <Button
             key={v.day}
@@ -58,7 +58,7 @@ const Home: FC = () => {
             <Text fontWeight="bold">Day {v.day}</Text> - {v.title}
           </Button>
         ))}
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };
