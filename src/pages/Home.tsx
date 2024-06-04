@@ -38,8 +38,8 @@ const Home: FC = () => {
           </Button>
         ))}
       </Flex>
-
-      {/* <Flex flexDir="column" mt={16} gap={4} px={4}>
+      {/* 
+      <Flex flexDir="column" mt={16} gap={4} px={4}>
         {sampleData.map((v: IWords) => (
           <Button
             key={v.day}
